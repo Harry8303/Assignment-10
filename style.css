@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(212, 171, 200);
+}
+
+.header{
+    padding: 5px 40px;
+    border-bottom: 5px solid rgb(81, 199, 214);
+}
+
+.header h1{
+    font-size: 65px;
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+.main{
+    padding: 0 60px;
+}
+
+.todo{
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    gap: 5px;
+    font-size: 25px;
+}
+
+.cut{
+    text-decoration: line-through;
+}
+h2{
+    font-size: 40px;
+    font-weight: 50;
+}
